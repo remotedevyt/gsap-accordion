@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  background: linear-gradient(45deg,#000,#222);
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.items{
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.item{
+  width: 15vw;
+  height: 75vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
